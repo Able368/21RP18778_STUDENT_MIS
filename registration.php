@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <h2>USER REGISTRATION</h2>
   <?php if ($message) echo "<p>$message</p>"; ?>
   <form method="post">
-    <label>Name: <input name="firstname" required></label><br>
+    <label>Names: <input name="firstname" required></label><br>
     <label>Email: <input name="email" type="email" required></label><br>
     <label>Password: <input name="password" type="password" required></label><br>
     <button type="submit">Submit</button>
